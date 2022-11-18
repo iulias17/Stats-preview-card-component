@@ -1,0 +1,125 @@
+html {
+    background-color: hsl(233, 47%, 7%);
+}
+.card {
+    background-color: hsl(244, 38%, 16%);
+    max-width: 20.625rem;
+    min-height: 27.875rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+span {
+    color: hsl(277, 64%, 61%);
+}
+h1, .number {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 0.625rem;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+.text {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+.box {
+    width: fit-content;
+    margin: 0.625rem;
+}
+.stats {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+h1, p {
+    padding: 0.625rem 1.875rem;
+}
+.box p {
+    padding: 0.3125rem;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.6875rem;
+    margin-top: 0.625rem;
+}
+.overlay {
+    background-color: hsla(277, 64%, 48%, 0.438);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.header {
+    position: relative;
+}
+@media all and (min-width: 1110px) {
+    .card {
+        display: flex;
+        max-width: 69.375rem;
+        flex-direction: row-reverse;
+    }
+    .container {
+        min-width: 28.75rem;
+        height: 27.875rem;
+        padding: 2.5rem;
+    }
+    img {
+        max-width: 33.75rem;
+        height: 27.875rem;
+    }
+    .stats {
+        display: flex;
+        flex-direction: row;
+    }
+    h1 {
+        font-size: 2.1875rem;
+        text-align: left;
+        margin: 0.625rem 0;
+    }
+    p {
+        text-align: left;
+        margin: 1.25rem 1.5rem 1.25rem 0;
+    }
+    .stats {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .box p {
+        text-align: left;
+        margin: 0;
+    }
+    .box {
+        padding: 1.875rem 0;
+        padding-right: 3.125rem;
+    }
+    .text {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
